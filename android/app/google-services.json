@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839505120252",
+    "firebase_url": "https://shia-world.firebaseio.com",
+    "project_id": "shia-world",
+    "storage_bucket": "shia-world.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839505120252:android:9eb6e15e4d9b9b3b708079",
+        "android_client_info": {
+          "package_name": "com.chat.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839505120252-kudfhsnclc6lidr0he8qfq784kc77ora.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chat.flutterapp",
+            "certificate_hash": "9972709000145e9c64e62794d4dcb83435df433d"
+          }
+        },
+        {
+          "client_id": "839505120252-aodstdk7hek9judlo6sq5qc8cd1fbdno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Hnft3vTDUfTpM57rMcHb8XUWgx-89W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839505120252-aodstdk7hek9judlo6sq5qc8cd1fbdno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
