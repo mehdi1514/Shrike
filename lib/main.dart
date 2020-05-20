@@ -6,10 +6,7 @@ import 'package:flutterapp/resources/auth_methods.dart';
 import 'package:flutterapp/screens/home_screen.dart';
 import 'package:flutterapp/screens/login_screen.dart';
 import 'package:flutterapp/screens/search_screen.dart';
-import 'package:flutterapp/testingfiles/home3.dart';
 import 'package:provider/provider.dart';
-import './testingfiles/home2.dart';
-import './testingfiles/home1.dart';
 
 void main() => runApp(MyApp());
 
