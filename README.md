@@ -1,3 +1,3 @@
-# (the name of the app is yet to be decided😄)
+# Shrike 
 
 A social netwokring app similar to skype.
