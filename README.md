@@ -22,3 +22,8 @@ A social netwokring app similar to skype.
   <img width="200" height="400" src="https://user-images.githubusercontent.com/26627849/82509901-c8507500-9b26-11ea-948a-522e3be6fac0.jpeg">
   <img width="200" height="400" src="https://user-images.githubusercontent.com/26627849/82509902-c8e90b80-9b26-11ea-9759-9ea5bda34026.jpeg">
 </p>
+<p align="center">
+  <img width="200" height="400" src="https://user-images.githubusercontent.com/26627849/85116700-578e9c80-b23b-11ea-8c03-a0dec0184ac8.jpeg">
+</p>
+
+
