@@ -24,6 +24,7 @@ A social netwokring app similar to skype.
 </p>
 <p align="center">
   <img width="200" height="400" src="https://user-images.githubusercontent.com/26627849/85116700-578e9c80-b23b-11ea-8c03-a0dec0184ac8.jpeg">
+  Me talking to me😄
 </p>
 
 
