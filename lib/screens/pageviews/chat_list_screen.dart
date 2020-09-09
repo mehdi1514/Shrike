@@ -39,7 +39,7 @@ class ChatListScreen extends StatelessWidget {
           },
         ),
         IconButton(
-          icon: Icon(Icons.more_vert),
+          icon: Icon(Icons.exit_to_app),
           color: Colors.white,
           onPressed: () => _authMethods.signOut().then((value) {
             Navigator.pushReplacement(context,
@@ -59,7 +59,6 @@ class ChatListScreen extends StatelessWidget {
       body: ChatListContainer(),
     );
   }
-
 }
 
 class ChatListContainer extends StatelessWidget {
@@ -69,11 +68,13 @@ class ChatListContainer extends StatelessWidget {
     final UserProvider userProvider = Provider.of<UserProvider>(context);
     return Container(
       child: StreamBuilder(
-        stream: _chatMethods.fetchContacts(userId: userProvider.getUser.uid,),
-        builder: (context, snapshot){
-          if(snapshot.hasData){
+        stream: _chatMethods.fetchContacts(
+          userId: userProvider.getUser.uid,
+        ),
+        builder: (context, snapshot) {
+          if (snapshot.hasData) {
             var docList = snapshot.data.documents;
-            if(docList.isEmpty){
+            if (docList.isEmpty) {
               return QuietBox();
             }
             return ListView.builder(
@@ -85,10 +86,11 @@ class ChatListContainer extends StatelessWidget {
               },
             );
           }
-          return Center(child: CircularProgressIndicator(),);
+          return Center(
+            child: CircularProgressIndicator(),
+          );
         },
       ),
     );
   }
 }
-
